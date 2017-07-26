@@ -5,7 +5,7 @@ html, body {
 }
 
 body{
-	background: url("https://s3.amazonaws.com/codecademy-content/projects/pocketbook/bg.jpg") no-repeat center center;
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/pocketbook/bg.jpg") no-repeat center center;
   background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -39,8 +39,11 @@ body{
 }
 
 .footer{
-  border-top: solid 1px #FFFFFF;
   padding: 30px 0 130px 0;
+}
+
+.footer .container{
+  border-top: solid 1px #FFFFFF;
 }
 
 .footer .container a{
